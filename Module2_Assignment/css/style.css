@@ -1,0 +1,180 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  padding: 18px;
+}
+body{
+  background-image: url('the_office.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+}
+
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+  padding: 10px;
+
+}
+
+section {
+  border: 1px solid black;
+  background-color: #C0C0C0;
+  padding: 0px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: fantasy;
+  color:  #000000 ;
+}
+
+.Mike {
+  border: 1px solid black;
+  border-left: 5px solid black;
+  text-align: right;
+  vertical-align: top;
+  width: 40%;
+  margin-left: 60%;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 100; 
+}
+
+.Dwight {
+  border: 1px solid black;
+  border-left: 5px solid black;
+  text-align: right;
+  vertical-align: top;
+  width: 50%;
+  margin-left: 50%;
+  background-color: #ffff80;
+  color: black;
+  padding: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 100;
+}
+
+.Jim {
+  border: 1px solid black;
+  border-left: 5px solid black;
+  text-align: right;
+  vertical-align: top;
+  width: 40%;
+  margin-left: 60%;
+  background-color: #80bfff;
+  color: black;
+  padding: 5px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 100;
+  
+}
+
+*p {
+  border: 1px solid black;
+  background-color: #C0C0C0;
+  width: 95%;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: Helvetica;
+  color:  #000000 ;
+}
+*/
+
+.row {
+  width: 100%;
+}
+
+/********************* Web Browsers/Large Screen **************/
+@media (min-width: 992px) {
+    .column-brw1, .column-brw2, .column-brw3, .column-brw4, .column-brw5, .column-brw6, .column-brw7, .column-brw8, .column-brw9, .column-brw10, .column-brw11, .column-brw12 {
+    float: left;
+    
+  }
+  .column-brw1 {
+    width: 8.33%;
+  }
+  .column-brw2 {
+    width: 16.66%;
+  }
+  .column-brw3 {
+    width: 25%;
+  }
+  .column-brw4 {
+    width: 33.33%;
+  }
+  .column-brw5 {
+    width: 41.66%;
+  }
+  .column-brw6 {
+    width: 50%;
+  }
+  .column-brw7 {
+    width: 58.33%;
+  }
+  .column-brw8 {
+    width: 66.66%;
+  }
+  .column-brw9 {
+    width: 74.99%;
+  }
+  .column-brw10 {
+    width: 83.33%;
+  }
+  .column-brw11 {
+    width: 91.66%;
+  }
+  .column-brw12 {
+    width: 100%;
+  }
+}
+
+/******************* Tablets / Medium Screen *******************/
+@media (min-width: 768px) and (max-width: 991px){
+    .column-med1, .column-med2, .column-med3, .column-med4, .column-med5, .column-med6, .column-med7, .column-med8, .column-med9, .column-med10, .column-med11, .column-med12 {
+    float: left;
+    
+  }
+  .column-med1 {
+    width: 8.33%;
+  }
+  .column-med2 {
+    width: 16.66%;
+  }
+  .column-med3 {
+    width: 25%;
+  }
+  .column-med4 {
+    width: 33.33%;
+  }
+  .column-med5 {
+    width: 41.66%;
+  }
+  .column-med6 {
+    width: 50%;
+  }
+  .column-med7 {
+    width: 58.33%;
+  }
+  .column-med8 {
+    width: 66.66%;
+  }
+  .column-med9 {
+    width: 74.99%;
+  }
+  .column-med10 {
+    width: 83.33%;
+  }
+  .column-med11 {
+    width: 91.66%;
+  }
+  .column-med12 {
+    width: 100%;
+  }
+}
+
+/*** An else case which would automatically stack up the sections ****/
